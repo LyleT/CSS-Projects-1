@@ -1,0 +1,32 @@
+body {
+  font-family: Source Sans, sans-serif;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  color: steelBlue;
+  text-align: center;
+}
+
+table {
+  border: 2px solid steelBlue;
+  width: 650px;
+  margin: 0 auto;
+}
+
+thead {
+  background-color: tan;
+}
+
+td {
+  border-top: 1px solid tan;
+}
+
+.code {
+  font-family: monospace;
+  background-color: sandyBrown;
+}
