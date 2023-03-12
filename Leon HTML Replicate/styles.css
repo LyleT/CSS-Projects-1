@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(124, 199, 232);
+  color: white;
+}
+
+.container {
+  margin: 2rem auto;
+  max-width: 900px;
+  width: 90%;
+  border: 5px solid rgb(63, 198, 44);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+a {
+  color: rgb(63, 198, 44);
+  font-family: "Roboto", sans-serif;
+}
+
+header h1 {
+  font-family: "Merriweather", serif;
+}
+
+header h3 {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+header h3 span,
+footer h4 span {
+  color: #454545;
+}
+
+main {
+  padding: 2% 10%;
+  font-size: 1.35rem;
+  line-height: 1.5;
+}
+
+main h3 {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+img {
+  width: 30%;
+  float: right;
+  height: auto;
+  padding-bottom: 4%;
+}
+
+footer h4 {
+  text-align: center;
+  padding-bottom: 5%;
+  font-size: 1.2rem;
+}
